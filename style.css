@@ -1,0 +1,28 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.calc
+{   border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    gap: 10px;
+    border: 2px solid rgb(144, 216, 245);
+   padding: 5px;
+   box-shadow: inset rgb(2, 82, 114),outset rgb(144, 216, 245);
+}
+input{
+    grid-column: span 4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: inset rgb(74, 172, 211);
+}
+
+button{
+    border-radius:50%;
+    padding: 10px;
+    box-shadow: chartreuse;
+}
